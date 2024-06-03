@@ -1,1 +1,58 @@
+:root{
+    --primary: #00B33D;
+    --secondary: #7700BF;
+    --tertiary: #FFA800;
+    --success: var(--primary);
+    --info: var(--secondary);
+    --warning: var(--tertiary);
+}
 
+.bg-primary, .btn-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary, .btn-secondary{
+    background-color: var(--secondary) !important;
+}
+
+.bg-tertiary, .btn-tertiary{
+    background-color: var(--tertiary) !important;
+}
+
+.bg-success, .btn-success{
+    background-color: var(--success) !important;
+}
+
+.bg-info, .btn-info{
+    background-color: var(--info) !important;
+}
+
+.bg-warning, .btn-warning{
+    background-color: var(--warning) !important;
+}
+
+.bg-danger .btn-danger{
+    background-color: var(--danger) !important;
+}
+
+.nav-link {
+    color: var(--primary) !important ;
+}
+
+.nav-link:hover{
+    color: var(--warning) !important ; 
+}
+
+/* text colors */
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.text-secondary{
+    color: var(--secondary) !important;
+}
+
+.text-tertiary{
+    color: var(--tertiary) !important;
+}
