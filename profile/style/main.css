@@ -7,6 +7,26 @@
     --warning: var(--tertiary);
 }
 
+.btn-outline-primary{
+    border: var(--primary) !important;
+    color: var(--primary) !important;
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--primary);
+    color: white !important;
+}
+
+.btn-outline-secondary{
+    border: 1px solid var(--secondary) !important;
+    color: var(--secondary) !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--secondary) !important;
+    color: white !important;
+}
+
 .bg-primary, .btn-primary{
     background-color: var(--primary) !important;
 }
@@ -55,4 +75,12 @@
 
 .text-tertiary{
     color: var(--tertiary) !important;
+}
+
+.bi-secondary{
+    fill: var(--secondary);
+}
+
+.bi-secondary:hover{
+    fill: white !important;
 }
