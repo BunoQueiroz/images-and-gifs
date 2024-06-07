@@ -79,8 +79,10 @@
 
 .bi-secondary{
     fill: var(--secondary);
+    transition: 1s;
 }
 
 .bi-secondary:hover{
     fill: white !important;
+    transition: 1s;
 }
