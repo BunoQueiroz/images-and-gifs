@@ -12,7 +12,7 @@
     color: var(--primary) !important;
 }
 
-.btn-outline-primary:hover, .btn-outline-primary:active{
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:target{
     background-color: var(--primary);
     color: white !important;
 }
@@ -92,4 +92,12 @@
     font-weight: 400;
     font-style: normal;
 }
-  
+
+.border, .border-primary {
+    border: 1px solid var(--primary);
+}
+
+.border-secondary {
+    border: 1px solid var(--secondary);
+}
+
