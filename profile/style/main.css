@@ -8,11 +8,11 @@
 }
 
 .btn-outline-primary{
-    border: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
     color: var(--primary) !important;
 }
 
-.btn-outline-primary:hover{
+.btn-outline-primary:hover, .btn-outline-primary:active{
     background-color: var(--primary);
     color: white !important;
 }
@@ -22,7 +22,7 @@
     color: var(--secondary) !important;
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover, .btn-outline-secondary:active{
     background-color: var(--secondary) !important;
     color: white !important;
 }
