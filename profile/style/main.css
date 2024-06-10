@@ -31,8 +31,16 @@
     background-color: var(--primary) !important;
 }
 
+.btn-primary:hover {
+    background-color: #009030;
+}
+
 .bg-secondary, .btn-secondary{
     background-color: var(--secondary) !important;
+}
+
+.btn-secondary:hover {
+    background-color: #5b0093;
 }
 
 .bg-tertiary, .btn-tertiary{
