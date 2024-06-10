@@ -55,11 +55,11 @@
     background-color: var(--danger) !important;
 }
 
-.nav-link {
+.nav-link, .link-primary, .link {
     color: var(--primary) !important ;
 }
 
-.nav-link:hover{
+.nav-link:hover, .link-primary:hover, .link:hover{
     color: var(--warning) !important ; 
 }
 
