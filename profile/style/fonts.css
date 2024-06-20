@@ -1,9 +1,9 @@
 .font-sanserif {
-    font-family: sans-serif;
+    font-family: sans-serif !important;
 }
 .font-fantasy {
-    font-family: fantasy;
+    font-family: fantasy !important;
 }
 .font-cursive {
-    font-family: cursive;
+    font-family: cursive !important;
 }
