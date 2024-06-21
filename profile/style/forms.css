@@ -7,8 +7,12 @@
     --warning: var(--tertiary) !important;
 }
 
+.form-control {
+    border: 1px solid var(--primary) !important;
+}
+
 .form-control:active, .form-control:focus {
     box-shadow: none !important;
-    border: 2px solid var(--primary) !important;
-    transition: .5s !important;
+    border: 2px solid var(--secondary) !important;
+    transition: .5s;
 }
