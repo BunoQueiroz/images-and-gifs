@@ -1,0 +1,14 @@
+:root{
+    --primary: #00B33D !important;
+    --secondary: #7700BF !important;
+    --tertiary: #FFA800 !important;
+    --success: var(--primary) !important;
+    --info: var(--secondary) !important;
+    --warning: var(--tertiary) !important;
+}
+
+.form-control:active, .form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid var(--primary) !important;
+    transition: .5s !important;
+}
