@@ -7,3 +7,9 @@
 .font-cursive {
     font-family: cursive !important;
 }
+
+.playfair-display-main {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+}
