@@ -1,0 +1,7 @@
+.shadwon-secondary {
+    box-shadow: 0px 0px 10px 20px #7700BF;
+}
+
+.shadwon-secondary-inset {
+    box-shadow: inset 0px 0px 10px 5px #7700BF;
+}
