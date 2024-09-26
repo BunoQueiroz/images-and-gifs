@@ -9,7 +9,8 @@
 }
 
 .playfair-display-main {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", system-ui;
+  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
