@@ -5,3 +5,11 @@
 .max-width-90 {
     max-width: 90px !important;
 }
+
+.max-height-30 {
+    max-height: 30px !important;
+}
+
+.max-width-30 {
+    max-width: 30px !important;
+}
