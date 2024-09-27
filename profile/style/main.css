@@ -107,6 +107,14 @@
     transition: 1s;
 }
 
+.bi-tertiary{
+    fill: var(--tertiary);
+}
+
+.bi-tertiary:hover{
+    fill: white !important;
+}
+
 .jersey-10-charted-regular {
     font-family: "Jersey 10 Charted", sans-serif;
     font-weight: 400;
