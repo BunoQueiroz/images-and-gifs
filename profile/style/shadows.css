@@ -1,5 +1,11 @@
+:root{
+    --primary: #00B33D !important;
+    --secondary: #7700BF !important;
+    --tertiary: #FFA800 !important;
+}
+
 .shadwon-secondary {
-    box-shadow: 0px 0px 10px 20px #7700BF;
+    box-shadow: 0px 0px 10px 20px var(--secondary);
 }
 
 .shadwon-secondary-inset {
