@@ -27,6 +27,18 @@
     color: white !important;
 }
 
+.btn-outline-tertiary{
+    border: 1px solid var(--tertiary) !important;
+    color: var(--tertiary) !important;
+    transition: 1s;
+}
+
+.btn-outline-tertiary:hover, .btn-outline-tertiary:active{
+    background-color: var(--tertiary) !important;
+    color: white !important;
+    transition: 1s;
+}
+
 .bg-primary, .btn-primary{
     background-color: var(--primary) !important;
 }
