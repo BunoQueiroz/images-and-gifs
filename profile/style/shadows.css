@@ -9,5 +9,13 @@
 }
 
 .shadwon-secondary-inset {
-    box-shadow: inset 0px 0px 10px 5px #7700BF;
+    box-shadow: inset 0px 0px 10px 5px var(--secondary);
+}
+
+.shadwon-tertiary-mini {
+    box-shadow: 0px 0px 2px 1px var(--tertiary);
+}
+
+.shadwon-tertiary-mini-inset {
+    box-shadow: inset 0px 0px 2px 1px var(--tertiary);
 }
