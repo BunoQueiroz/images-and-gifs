@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const carouselInner = document.querySelector(".carousel-inner");
-    const nextButton = document.querySelector(".carousel-control-next");
-    const prevButton = document.querySelector(".carousel-control-prev");
+    const nextButton = document.getElementById("carousel-control-next");
+    const prevButton = document.getElementById("carousel-control-prev");
 
     function shiftToRigth(parent) {
         const childrens = parent.children;
