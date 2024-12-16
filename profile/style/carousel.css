@@ -1,6 +1,6 @@
 .carousel-items {
     width: 25%; /* Cada slide ocupa 25% */
-    transition: transform 1s ease;
+    transition: 1s;
 }
   
 .carousel-inner {
